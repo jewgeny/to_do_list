@@ -1,0 +1,13 @@
+.userWrapper h1 {
+  text-align: center;
+}
+.userWrapper ul {
+  margin-left: 35px;
+  list-style: none;
+  width: 250px;
+}
+.userWrapper ul div {
+  margin: 10px 0;
+  border-top: 1px solid grey;
+  padding-top: 5px;
+}

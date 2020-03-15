@@ -1,0 +1,18 @@
+    .slideDown-appear, 
+    .slideDown-enter{
+        opacity: 0;
+    }
+
+    .slideDown-enter-active, .slideDown-enter.slideDown-enter-active{
+        opacity: 1;
+        transition: opacity .5s linear .5s;
+    }
+
+    .slideDown-exit{
+        opacity: 1;
+    }
+
+    .slideDown-exit.slideDown-exit-active{
+        opacity: 0;
+        transition: opacity .5s linear;
+    }
